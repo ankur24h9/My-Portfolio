@@ -77,7 +77,7 @@ const Home = () => {
           <div className="flex items-center gap-3 mt-20 md-20 ">
             <a
               href="/autoCV.pdf"
-              download="My resume.pdf"
+              download="autoCV.pdf"
               className="w-50 mx-4 hover:opacity-0.4  px-4 py-2 text-xl hover:bg-violet-500 bg-white text-center justify-center rounded-3xl"
             >
               Download CV
