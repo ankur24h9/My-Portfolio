@@ -76,8 +76,8 @@ const Home = () => {
           <p className="font-bold text-2xl mt-5 text-white ">I am a Passionate Full-Stack Developer. I am currently working at React Technologies as a web Developer.</p>
           <div className="flex items-center gap-3 mt-20 md-20 ">
             <a
-              href="/update resume.pdf"
-              download="update resume.pdf"
+              href="/autoCV.pdf"
+              download="My resume.pdf"
               className="w-50 mx-4 hover:opacity-0.4  px-4 py-2 text-xl hover:bg-violet-500 bg-white text-center justify-center rounded-3xl"
             >
               Download CV
@@ -115,7 +115,7 @@ const Home = () => {
 
           </div>
           <div className="mt-15 flex gap-4">
-            <a href="tel:+916204979918" className="px-6 py-3 bg-indigo-600 text-white rounded-full hover:bg-indigo-700">Contact Me</a>
+            <a href="tel:+916204979918" className="px-4 py-3 bg-indigo-600 text-white rounded-full hover:bg-indigo-700">Contact Me</a>
             <a href="mailto:ankurkumar62049@gmail.com" className="px-6 py-3 border border-gray-200 rounded-full hover:bg-gray-100">Send Email</a>
           </div>
 

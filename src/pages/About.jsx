@@ -79,7 +79,7 @@ const About = () => {
             <section id="about" className="container mx-auto  bg-gray-800 rounded-lg shadow-sm ">
         <h2 className="text-5xl font-bold text-center text-white pt-30">About Me</h2>
       
-        <p className="mt-3  text-white text-2xl mx-5">I'm a Full Stack web developer and Designer with experience in designing new features from ideation to production. I take into consideration the user experience while writing reusable and efficient code. I passionately combine good design, technology, and innovation in all my projects, which I like to accompany from the first idea to release. Currently, I'm focused on the backend development.</p>
+        <p className="mt-3  text-white text-2xl mx-5">I'm Ankur Pandey a Full Stack web developer and Designer with experience in designing new features from ideation to production. I take into consideration the user experience while writing reusable and efficient code. I passionately combine good design, technology, and innovation in all my projects, which I like to accompany from the first idea to release. Currently, I'm focused on the backend development.</p>
 
         <h3 className="mt-6 font-medium text-3xl text-blue-600 mx-5 ">Technologies and Tools</h3>
         <div className="mt-4 grid grid-cols-2 md:grid-cols-4 gap-4 py-5 mx-5">
@@ -99,7 +99,7 @@ const About = () => {
                   className="w-9 h-9 object-contain"
                 />
               </div>
-              <div className="text-sm font-medium">{s}</div>
+              <div className="text-sm font-semibold">{s}</div>
             </motion.div>
           ))}
         </div>
