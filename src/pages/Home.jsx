@@ -2,79 +2,91 @@ import React, { useState } from 'react'
 import { Link } from "react-router-dom";
 import { Typewriter } from "react-simple-typewriter";
 const Home = () => {
-    const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-    function DynamicRole() {
-      return (
-        <div className="text-4xl text-white font-bold">
-          <Typewriter
-            words={[
-              "Frontend Developer",
-              "Backend Developer",
-              "Full-Stack Developer",
-            ]}
-            loop={true}
-            cursor
-            cursorStyle=""
-            typeSpeed={80}
-            deleteSpeed={50}
-            delaySpeed={1500}
-          />
-        </div>
-      );
-    }
+  function DynamicRole() {
+    return (
+      <div className="text-4xl text-white font-bold">
+        <Typewriter
+          words={[
+            "React Developer",
+            "Java Developer",
+            "SOL / MySQL Developer",
+            "GenAI Enthusiast",
+          ]}
+          loop={true}
+          cursor
+          cursorStyle=""
+          typeSpeed={80}
+          deleteSpeed={50}
+          delaySpeed={1500}
+        />
+      </div>
+    );
+  }
   return (
     <div className='min-h-screen bg-white text-gray-900'>
-    <header className="fixed shadow-md bg-white w-full z-50">
-  <div className="container mx-auto px-6 py-4 flex items-center justify-between">
+      <header className="fixed shadow-md bg-white w-full z-50">
+        <div className="container mx-auto px-6 py-4 flex items-center justify-between">
 
-    
-    <div className="flex items-center gap-3">
-      <div className="w-12 h-10 rounded-full bg-linear-to-br from-indigo-500 to-purple-500 flex items-center justify-center text-white font-bold">
-        AK
-      </div>
-      <div className="font-semibold">Ankur Kumar</div>
-    </div>
 
-    
-    <nav className="hidden md:flex space-x-6 text-md">
-      <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
-      <Link to="/services">Services</Link>
-      <Link to="/projects">Projects</Link>
-      <Link to="/certification">Certification</Link>
-      <Link to="/contact">Contact</Link>
-    </nav>
+          <div className="flex items-center gap-3">
+            <div className="w-12 h-10 rounded-full bg-linear-to-br from-indigo-500 to-purple-500 flex items-center justify-center text-white font-bold">
+              AK
+            </div>
+            <div className="font-semibold">Ankur Kumar</div>
+          </div>
 
-    
-    <button
-      className="md:hidden text-2xl"
-      onClick={() => setIsOpen(!isOpen)}
-    >
-      ☰
-      
-    </button>
-  </div>
 
-  
-  {isOpen && (
-    <div className="md:hidden bg-white shadow-md px-6 py-4 flex flex-col space-y-4">
-      <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
-      <Link to="/about" onClick={() => setIsOpen(false)}>About</Link>
-      <Link to="/services" onClick={() => setIsOpen(false)}>Services</Link>
-      <Link to="/projects" onClick={() => setIsOpen(false)}>Projects</Link>
-      <Link to="/certification" onClick={() => setIsOpen(false)}>Certification</Link>
-      <Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
-    </div>
-  )}
-</header>
-     
+          <nav className="hidden md:flex space-x-6 text-md">
+            <Link to="/">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/services">Services</Link>
+            <Link to="/projects">Projects</Link>
+            <Link to="/certification">Certification</Link>
+            <Link to="/contact">Contact</Link>
+          </nav>
+
+
+          <button
+            className="md:hidden text-2xl"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            ☰
+
+          </button>
+        </div>
+
+
+        {isOpen && (
+          <div className="md:hidden bg-white shadow-md px-6 py-4 flex flex-col space-y-4">
+            <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
+            <Link to="/about" onClick={() => setIsOpen(false)}>About</Link>
+            <Link to="/services" onClick={() => setIsOpen(false)}>Services</Link>
+            <Link to="/projects" onClick={() => setIsOpen(false)}>Projects</Link>
+            <Link to="/certification" onClick={() => setIsOpen(false)}>Certification</Link>
+            <Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
+          </div>
+        )}
+      </header>
+
 
       <section id="home" className="bg-linear-to-br from-indigo-500 to-purple-500 container mx-auto px-6 py-26 flex flex-col md:flex-row items-center gap-8 rounded-2xl">
         <div className="flex-1">
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight  text-amber-300">Hi, I am Ankur</h1> <DynamicRole />
-          <p className="font-bold text-2xl mt-5 text-white ">I am a Passionate Full-Stack Developer. I am currently working at React Technologies as a web Developer.</p>
+          <h1 className="text-4xl md:text-5xl font-bold leading-tight  text-amber-300">Hi, I am Ankur Kumar </h1> <DynamicRole />
+          <p className="font-bold text-2xl mt-5 text-white ">  I build real-world web applications using the Java and MERN stack, including
+            API Testing Tool and AI-powered tools any many more. Currently looking for internship
+            and entry-level opportunities.</p>
           <div className="flex items-center gap-3 mt-20 md-20 ">
+
+            <a
+
+              href="/projects"
+              className="px-6 py-3 bg-white text-indigo-600 rounded-full font-semibold hover:bg-gray-200"
+            >
+              View Projects
+            </a>
+
             <a
               href="/autoCV1.pdf"
               download="autoCV1.pdf"

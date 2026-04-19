@@ -79,7 +79,20 @@ const About = () => {
             <section id="about" className="container mx-auto  bg-gray-800 rounded-lg shadow-sm ">
         <h2 className="text-5xl font-bold text-center text-white pt-30">About Me</h2>
       
-        <p className="mt-3  text-white text-2xl mx-5">I'm Ankur Pandey a Full Stack web developer and Designer with experience in designing new features from ideation to production. I take into consideration the user experience while writing reusable and efficient code. I passionately combine good design, technology, and innovation in all my projects, which I like to accompany from the first idea to release. Currently, I'm focused on the backend development.</p>
+        <p className="mt-3  text-white text-2xl mx-5">I am a self-taught Full Stack Developer currently focused on building real-world projects using the Java & MERN stack.
+
+I have hands-on experience in:
+
+Building REST APIs with Node.js and Express
+Creating responsive UIs using React and Tailwind CSS
+Working with databases like MongoDB and Supabase
+Integrating AI APIs such as Speech-to-Text
+
+Currently, I am improving my skills in:
+
+System Design basics
+Backend performance optimization
+Writing clean and scalable code</p>
 
         <h3 className="mt-6 font-medium text-3xl text-blue-600 mx-5 ">Technologies and Tools</h3>
         <div className="mt-4 grid grid-cols-2 md:grid-cols-4 gap-4 py-5 mx-5">
