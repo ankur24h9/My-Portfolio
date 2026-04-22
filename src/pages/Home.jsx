@@ -88,7 +88,7 @@ const Home = () => {
             </a>
 
             <a
-              href="/autoCV1.pdf"
+              href="/autoCV1.pdf"            
               download="autoCV1.pdf"
               className="w-50 mx-4 hover:opacity-0.4  px-4 py-2 text-xl hover:bg-violet-500 bg-white text-center justify-center rounded-3xl"
             >
