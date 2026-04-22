@@ -12,8 +12,8 @@ const Projects = () => {
         "A full-stack application that gives information about tempreture, humidity, and weather conditions.",
       tech: "HTML, CSS, JavaScript, OpenWeather API",
       img: "/logos/Weather.jpg",
-      github: "https://github.com/ankur24h9/YOUR-REPO",
-      live: "https://your-live-link.vercel.app",
+      github: "/",
+      live: "/",
     },
     {
       title: "RideXperts",
@@ -21,8 +21,8 @@ const Projects = () => {
         "A web app that gives facility to users for booking rides and managing their travel plans.",
       tech: "React, Tailwind CSS, Node.js, Supabase, GOOGLE MAP API",
       img: "/logos/RideXperts.jpg",
-      github: "https://github.com/ankur24h9/YOUR-REPO",
-      live: "https://your-live-link.vercel.app",
+      github: "/",
+      live: "/",
     },
     {
       title: "Hiresense Job Tracker",
@@ -30,8 +30,8 @@ const Projects = () => {
         "AI-Powered job tracking application that helps users find the right opportunities in their job search process.",
       tech: "HTML, Bootstrap, MySQL, Java",
       img: "/logos/JobLinker.jpg",
-      github: "https://github.com/ankur24h9/YOUR-REPO",
-      live: "https://your-live-link.vercel.app",
+      github: "/",
+      live: "/",
     },
   ];
 
