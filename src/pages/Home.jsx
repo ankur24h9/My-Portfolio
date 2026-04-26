@@ -82,8 +82,8 @@ const Home = () => {
             <Link to="/projects" className='px-6 py-3 mx-2 bg-white text-indigo-600 rounded-full font-semibold hover:bg-gray-200'>View Projects</Link>
 
             <a
-              href="/autoCV1.pdf"            
-              download="autoCV1.pdf"
+              href="/logos/My_CV.pdf"
+              download="My_CV.pdf"
               className="px-6 py-3 bg-white text-indigo-600 rounded-full font-semibold hover:bg-gray-200"
             >
               Download CV
